@@ -1,7 +1,8 @@
+#include <cmath>
 #include "Circle.h"
 
 double Circle::area() {
-    double result = 2 * PI * radius();
+    double result = 2 * PI * pow(radius(), 2);
     return result;
 };
 
